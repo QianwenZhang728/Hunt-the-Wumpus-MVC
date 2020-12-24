@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUIView">
+  <grid id="27dc6" binding="entryPanel" layout-manager="GridLayoutManager" row-count="15" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="506" height="534"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="8b75e" class="javax.swing.JLabel" binding="rowLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="-1"/>
+            <preferred-size width="234" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Row Number of Maze"/>
+        </properties>
+      </component>
+      <component id="f5a31" class="javax.swing.JTextField" binding="columnField">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="-1"/>
+            <preferred-size width="40" height="-1"/>
+            <maximum-size width="40" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c35bc" class="javax.swing.JLabel" binding="columnLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="234" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Column Number of Maze"/>
+        </properties>
+      </component>
+      <component id="b54fc" class="javax.swing.JTextField" binding="wallField">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="-1"/>
+            <preferred-size width="40" height="-1"/>
+            <maximum-size width="40" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="93399" class="javax.swing.JLabel" binding="wallNumber">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="234" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Number of Walls"/>
+        </properties>
+      </component>
+      <component id="cf688" class="javax.swing.JTextField" binding="playerField">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="-1"/>
+            <preferred-size width="40" height="-1"/>
+            <maximum-size width="40" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="90d90" class="javax.swing.JLabel" binding="playerNumber">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="234" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Number of Players"/>
+        </properties>
+      </component>
+      <component id="4aea6" class="javax.swing.JTextField" binding="batsField">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="-1"/>
+            <preferred-size width="40" height="-1"/>
+            <maximum-size width="40" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f495a" class="javax.swing.JTextField" binding="pitsField">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="-1"/>
+            <preferred-size width="40" height="-1"/>
+            <maximum-size width="40" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f46b9" class="javax.swing.JLabel" binding="batsPercentage">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="234" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Percentage of Superbats"/>
+        </properties>
+      </component>
+      <component id="bbca" class="javax.swing.JLabel" binding="pitsPercentage">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="234" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Percentage of Pits"/>
+        </properties>
+      </component>
+      <component id="2b9b5" class="javax.swing.JLabel" binding="arrowNumber">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="234" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Number of Arrows"/>
+        </properties>
+      </component>
+      <component id="6012c" class="javax.swing.JTextField" binding="arrowField">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="-1"/>
+            <preferred-size width="40" height="-1"/>
+            <maximum-size width="40" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="561a2" class="javax.swing.JButton" binding="startButton">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="Start Button"/>
+          <text value="New Game"/>
+        </properties>
+      </component>
+      <component id="871d0" class="javax.swing.JTextField" binding="rowField">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="-1"/>
+            <preferred-size width="40" height="-1"/>
+            <maximum-size width="40" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2e525" class="javax.swing.JButton" binding="westButton">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="108" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="West"/>
+        </properties>
+      </component>
+      <component id="56f4d" class="javax.swing.JButton" binding="southButton">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="South"/>
+        </properties>
+      </component>
+      <component id="f9a50" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="108" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Move"/>
+        </properties>
+      </component>
+      <component id="32f89" class="javax.swing.JTextField" binding="arrowStepField">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8d0e8" class="javax.swing.JLabel" binding="arrowStepLabel">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Step of Arrow"/>
+        </properties>
+      </component>
+      <component id="ef293" class="javax.swing.JLabel" binding="shootDirectionLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Direction of Arrow"/>
+        </properties>
+      </component>
+      <component id="635d4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="108" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Shoot"/>
+        </properties>
+      </component>
+      <component id="89c4f" class="javax.swing.JButton" binding="eastButton">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="East"/>
+        </properties>
+      </component>
+      <component id="4fb80" class="javax.swing.JButton" binding="shootButton">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Shoot"/>
+        </properties>
+      </component>
+      <component id="9b4c5" class="javax.swing.JTextField" binding="shootDirectionField">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1721" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="108" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Move or Shoot"/>
+        </properties>
+      </component>
+      <component id="a3d6d" class="javax.swing.JButton" binding="sameGameButton">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="Same Game"/>
+          <text value="Same Game"/>
+        </properties>
+      </component>
+      <component id="2909e" class="javax.swing.JButton" binding="northButton">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="North"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
